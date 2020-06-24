@@ -1,0 +1,24 @@
+{
+	"name": "random-user",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel ./public/index.html",
+		"build": "parcel build ./public/index.html",
+		"dev": "nodemon ./server/index.js",
+		"deploy": "yarn run build && gp-pages -d dist"
+	},
+	"dependencies": {
+		"axios": "^0.19.2",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"gh-pages": "^3.1.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"regenerator-runtime": "^0.13.5"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4"
+	}
+}
