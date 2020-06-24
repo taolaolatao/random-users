@@ -12,7 +12,9 @@ const App = () => {
 
 	const loadUsers = async () => {
 		try {
-			const response = await axios.get('http://localhost:1002/users');
+			const response = await axios.get(
+				'https://randomuser.me/api/?page=1&results=10'
+			);
 			dispatch(addUsers(response.data.results));
 		} catch (error) {
 			console.error(error);
