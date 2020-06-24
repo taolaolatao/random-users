@@ -22,7 +22,10 @@
 	"devDependencies": {
 		"parcel-bundler": "^1.12.4"
 	},
+<<<<<<< HEAD
 	"homepage": "https://taolaolatao.github.io/random-users",
+=======
+>>>>>>> 6d775dbfff8c523dba2882d0d60d1c70ec2bedf8
 	"browserslist": {
 		"production": [
 			">0.2%",
